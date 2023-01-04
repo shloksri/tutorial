@@ -1,3 +1,37 @@
+# steps followed
+
+1. Install git CLI to use gh commands in VS code Terminal.
+   a. Install by downloading msi file.
+   b. Then restart your VS code to reflect changes.
+2. Opened the folder of our React app in Terminal = **Most Important step XD**
+   Did the initialization of files here.
+
+   a. _git init -b main_
+   b. _git add ._
+   c. _git commit -m "tutorial commit 1"_
+
+   Note - this should have been the third step.
+
+3. Created repository on github.com with the same name "tutorial" using VSC Terminal.
+   a. ran the command _gh repo create_
+   b. It asks whether we want to create a new repository or push the local one. Chose to add a new repository.
+   Note: For pushing the local one, always type **.**. This will help push our local repository.
+   c. It asked to create a Readme.md file, but I created a _.gitignore_ from the options.
+
+4. Added and removed and then again added remote origin. It was not working as I added the SSH one. Must add the HTTPS. So copied the https version and added the remote repository
+
+5. Tried doing recommit, but Here no commit is possible, as no files have changed.
+
+6. Tried pushing the local repository but couldn't.
+   Command used - _git push -u origin main_
+
+7. Again executed command _gh repo create_
+   a. In this step, did the above mentioned Step _3.b.Note_.
+   b. Again tried to push repository but couldn't.
+
+8. Cmd executed _git pull_, then again tried _git push -u origin main_. But failed again.
+9. Finally did force push - _git push -f origin main_. Successfull this time.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
