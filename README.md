@@ -1,5 +1,7 @@
 # steps followed
 
+Created a new repository from Terminal.
+
 1. Install git CLI to use gh commands in VS code Terminal.
    a. Install by downloading msi file.
    b. Then restart your VS code to reflect changes.
