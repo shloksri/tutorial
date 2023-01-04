@@ -7,7 +7,9 @@
    Did the initialization of files here.
 
    a. _git init -b main_
+
    b. _git add ._
+
    c. _git commit -m "tutorial commit 1"_
 
    Note - this should have been the third step.
